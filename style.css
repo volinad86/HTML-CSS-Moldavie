@@ -86,8 +86,66 @@ body{
 }
 .apropo{
     padding: 2%;
-    
 }
+audio{
+    margin-bottom: 2%;
+}
+
+/* ADD FOOTER */
+footer{
+    background-color: #D3D3D3;
+    padding: 2%;
+    }
+footer a{
+    list-style-type: none;
+    margin: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+}
+    footer a{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer a{
+    color: #1E90FF;
+    font-size: 1.3em;
+    text-decoration: none; 
+}
+footer a:hover{
+    color:red;
+}
+
+/* ICONS CHANGE */
+.social li{
+	display: inline-block;
+    margin-top: 2%;
+}
+.iconsy {
+	display: block;
+	background: url(../image/sprite.png) no-repeat;
+	width: 38px;
+	height: 38px;
+    -webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+}
+.tw {
+	background-position: -38px 0;
+}
+.in {
+	background-position: -76px 0;
+}
+.fb:hover {
+	background-position: 0 -38px;
+}
+.tw:hover {
+	background-position: -38px -38px;
+}
+.in:hover {
+	background-position: -76px -38px;
+}
+
 
 
 @media all and (max-width: 912px){
@@ -101,5 +159,9 @@ body{
     .parlament{
         display: flex;
         width: 100%;
+    }
+        footer{
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
