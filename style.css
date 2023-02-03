@@ -4,6 +4,11 @@ body{
     padding:0px;
     text-align: center;
     }
+#wrap{
+    margin: auto;
+    max-width:960px;
+    padding: 0px;
+}
 
     /*  NAV */
     nav{
@@ -69,3 +74,32 @@ body{
         display: flex;
         justify-content: center;
     }
+.main{
+    display: flex;
+    background-color: antiquewhite;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.text{
+    padding: 1%;
+}
+.apropo{
+    padding: 2%;
+    
+}
+
+
+@media all and (max-width: 912px){
+    body{
+        margin: 3%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .parlament{
+        display: flex;
+        width: 100%;
+    }
+}
