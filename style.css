@@ -1,0 +1,71 @@
+body{
+    background-image: url('../image/planeta.jpg');
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    }
+
+    /*  NAV */
+    nav{
+        background-color: #76abd7;
+    }
+    nav ul li a{
+        list-style-type: none;
+        margin: 0px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        color: white;
+        font-family:verdana;
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+    nav ul{
+        list-style-type:none; /*élimine les puces*/
+        padding :0px; /*élimine l’espace par défaut de la liste à puce*/
+    }
+    nav ul li{
+        display:inline-block; /*aligne les li côte à côte*/
+    }
+    .bouton { /*apparence des boutons*/
+        background-color: #76abd7;
+        color: white;
+        font-family:verdana;
+        padding: 20px;
+        font-size: 1.1em;
+        text-decoration: none;
+        border: none;
+    }
+    .deroule {
+        position: relative;
+        display: inline-block;
+    }
+    .deroule-contenu { /*apparence de la liste qui se déroule*/
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .deroule-contenu a { /*apparence des liens dans la liste qui se déroule*/
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .deroule-contenu a:hover {background-color: #ddd;}  /*apparence des liens dans la liste qui se déroule quand j’hover*/
+    .deroule:hover .deroule-contenu {display: block;}
+    
+    nav ul li a:hover {
+        color:red; 
+    }
+    .bouton:hover{
+        color: red;
+    }
+
+
+/*  IMMAGE */
+    .drapeau{
+        display: flex;
+        justify-content: center;
+    }
