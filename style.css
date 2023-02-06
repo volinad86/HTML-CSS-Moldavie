@@ -79,8 +79,6 @@ body{
     background-color: antiquewhite;
     padding: 2%;
 }
-
-
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -167,5 +165,8 @@ footer a:hover{
         footer{
         display: flex;
         flex-direction: column-reverse;
+    }
+    .grotte{
+        width: 100%;
     }
 }
