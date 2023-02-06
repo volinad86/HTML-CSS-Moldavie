@@ -77,12 +77,16 @@ body{
 .main{
     display: flex;
     background-color: antiquewhite;
+    padding: 2%;
 }
+
+
 body{
     font-family: 'Roboto', sans-serif;
 }
 .text{
     padding: 1%;
+    font-size: 18px;
 }
 .apropo{
     padding: 2%;
