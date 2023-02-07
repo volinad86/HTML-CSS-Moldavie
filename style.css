@@ -85,6 +85,7 @@ body{
 .text{
     padding: 1%;
     font-size: 18px;
+    background-color: antiquewhite;
 }
 .apropo{
     padding: 2%;
@@ -151,6 +152,7 @@ footer a:hover{
     list-style: none;
     text-align: start;
 }
+
 
 
 
