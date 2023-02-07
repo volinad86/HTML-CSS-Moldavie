@@ -169,4 +169,8 @@ footer a:hover{
     .grotte{
         width: 100%;
     }
+    .youtube{
+        display: flex;
+        width: 100%;
+    }
 }
