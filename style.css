@@ -79,6 +79,14 @@ body{
     background-color: antiquewhite;
     padding: 2%;
 }
+.start{
+    text-align: start;
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
