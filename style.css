@@ -161,6 +161,9 @@ footer a:hover{
     list-style: none;
     text-align: start;
 }
+.hamburger-menu{
+    display: none;
+}
 
 
 
@@ -173,6 +176,10 @@ footer a:hover{
         display: flex;
         flex-direction: column;
     }
+    .ul{
+    display: none;
+    }
+    
     .parlament{
         display: flex;
         width: 100%;
@@ -210,6 +217,7 @@ footer a:hover{
     }
 .hamburger-menu{
     display: block;
+    margin-bottom: 10%;
 }
 
 /* remove image animation */
@@ -251,7 +259,7 @@ footer a:hover{
             z-index: 1;
             background: blue;
         }
-
+/* ******************************************************************* */
     /* add hamburger */
     .menu__btn > span,
     .menu__btn > span::before,
@@ -317,5 +325,5 @@ footer a:hover{
     #menu__toggle{
         display: none;
     }
-
+/* **************************************************************** */
 }
